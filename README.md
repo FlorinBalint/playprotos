@@ -1,8 +1,8 @@
-Simple usage example gRPC / protobuffer with the Go programming language.
+Simple usage example of gRPC & protobuffer for the Go programming language.
 
 ## Run the server locally
 You can use the the **.server/run.sh** script.
-By default, your server will run on port 50051 but you can change that
+By default, your server will run on port `50051` but you can change that
 using the *--port* flag.
 ```
 $ ./server/run.sh

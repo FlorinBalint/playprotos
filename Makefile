@@ -2,8 +2,6 @@
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
 mkfile_dir := $(dir $(mkfile_path))
 
-CLIENT_BINARY=helloworld_client
-
 BUILD=${mkfile_dir}build
 GOBIN=${BUILD}/bin
 GOPROTO=${BUILD}/src/proto
