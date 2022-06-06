@@ -15,6 +15,6 @@ require (
 	google.golang.org/genproto v0.0.0-20200806141610-86f49bd18e98 // indirect
 )
 
-require github.com/FlorinBalint/playprotos/helloworld v0.0.0
+require github.com/FlorinBalint/playprotos/helloworld v0.1.0
 
 replace github.com/FlorinBalint/playprotos/helloworld => ./build/src/proto/helloworld
