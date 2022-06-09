@@ -2,7 +2,7 @@ include ../Makefile
 
 BINARY=helloworld_server
 
-.PHONY: run build
+.PHONY: build run
 
 build: ${GOPROTO}/helloworld/go.mod go_protos
 	go build ${LDFLAGS} -o ${GOBIN}/${BINARY} main.go

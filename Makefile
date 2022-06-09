@@ -7,7 +7,7 @@ GOBIN=${BUILD}/bin
 GOPROTO=${BUILD}/src/proto
 GO_PROTO_MODULE="github.com/FlorinBalint/playprotos/helloworld"
 
-.PHONY: go_protos build_server run_server build_and_run_server
+.PHONY: go_protos clean
 
 ${GOPROTO}/helloworld:
 	mkdir -p ${GOPROTO}/helloworld
